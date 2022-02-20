@@ -5,7 +5,7 @@ public class JavaLibs5026211021 {
 
         JOptionPane.showMessageDialog(null,
                 "Hello everyone! Welcome to"
-                        + "\nJavaLibs5026211021 Game! ",
+                + "\nJavaLibs5026211021 Game! ",
                 "JavaLibs5026211021 Game",
                 1);
 
@@ -195,12 +195,13 @@ public class JavaLibs5026211021 {
 
         JOptionPane.showMessageDialog(null,
                 "RESULT : "
-                        + "\n" + pronouns + " name is " + fullName + ", usually called " + nickName + ". " + pronouns + " hobby is eating " + food + " " + foodSource + "."
-                        + "\nThe " + food + " is very " + animalCharacter + " and " + fishCharacter + ". Because of the food, the money in " + pronouns + " wallet was only Rp" + intPrice + "."
-                        + "\nHe spends " + doubleDecimalNumber + " (" + 100*doubleDecimalNumber + "%)" + " of his time for " + laterActivities + ". In addition, he collects a lot of " + vehicle
-                        + "\nand enjoys using it to travel back and forth from " + areaOfResidence + " to " + dreamPlace + " with " + crushName + " while bringing " + pronouns + " " + kindOfAnimal + "."
-                        + "\nLastly, " + pronouns + " goal is to become a " + futureDream + ".",
+                + "\n" + pronouns + " name is " + fullName + ", usually called " + nickName + ". " + pronouns + " hobby is eating " + food + " " + foodSource + "."
+                + "\nThe " + food + " is very " + animalCharacter + " and " + fishCharacter + ". Because of the food, the money in " + pronouns + " wallet was only Rp" + intPrice + "."
+                + "\nHe spends " + doubleDecimalNumber + " (" + 100*doubleDecimalNumber + "%)" + " of his time for " + laterActivities + ". In addition, he collects a lot of " + vehicle
+                + "\nand enjoys using it to travel back and forth from " + areaOfResidence + " to " + dreamPlace + " with " + crushName + " while bringing " + pronouns + " " + kindOfAnimal + "."
+                + "\nLastly, " + pronouns + " goal is to become a " + futureDream + ".",
                 "Final Result",
                 1);
+        
     }
 }
