@@ -35,7 +35,8 @@ public class JavaLibs5026211021 {
                 null,
                 "nickname");
 
-        String pronouns;
+        String pronouns1;
+        String pronouns2;
         String[] genderArray = {"Male", "Female"};
         String gender = (String) JOptionPane.showInputDialog(null,
                 "What is your gender?",
@@ -45,9 +46,11 @@ public class JavaLibs5026211021 {
                 genderArray,
                 genderArray[0]);
         if (gender == "Male") {
-            pronouns = "His";
+            pronouns1 = "He";
+            pronouns2 = "His";
         } else {
-            pronouns = "Her";
+            pronouns1 = "She";
+            pronouns2 = "Her";
         }
 
         String food = (String) JOptionPane.showInputDialog(null,
@@ -71,7 +74,7 @@ public class JavaLibs5026211021 {
                 foodSource = "made by himself";
             } else foodSource = "made by herself";
         } else if (foodSource == foodSourceArray[1]) {
-            foodSource = "made by " + pronouns + " mom";
+            foodSource = "made by " + pronouns2 + " mom";
         } else {
             foodSource = "from Gofood";
         }
@@ -195,13 +198,12 @@ public class JavaLibs5026211021 {
 
         JOptionPane.showMessageDialog(null,
                 "RESULT : "
-                + "\n" + pronouns + " name is " + fullName + ", usually called " + nickName + ". " + pronouns + " hobby is eating " + food + " " + foodSource + "."
-                + "\nThe " + food + " is very " + animalCharacter + " and " + fishCharacter + ". Because of the food, the money in " + pronouns + " wallet was only Rp" + intPrice + "."
-                + "\nHe spends " + doubleDecimalNumber + " (" + 100*doubleDecimalNumber + "%)" + " of his time for " + laterActivities + ". In addition, he collects a lot of " + vehicle
-                + "\nand enjoys using it to travel back and forth from " + areaOfResidence + " to " + dreamPlace + " with " + crushName + " while bringing " + pronouns + " " + kindOfAnimal + "."
-                + "\nLastly, " + pronouns + " goal is to become a " + futureDream + ".",
+                + "\n" + pronouns2 + " name is " + fullName + ", usually called " + nickName + ". " + pronouns2 + " hobby is eating " + food + " " + foodSource + "."
+                + "\nThe " + food + " is very " + animalCharacter + " and " + fishCharacter + ". Because of the food, the money in " + pronouns2 + " wallet was only Rp" + intPrice + "."
+                + "\n" + pronouns1 + " spends " + doubleDecimalNumber + " (" + 100*doubleDecimalNumber + "%)" + " of " + pronouns2 + " time for " + laterActivities + ". In addition, " + pronouns1 + " collects a lot of " + vehicle
+                + "\nand enjoys using it to travel back and forth from " + areaOfResidence + " to " + dreamPlace + " with " + crushName + " while bringing " + pronouns2 + " " + kindOfAnimal + "."
+                + "\nLastly, " + pronouns2 + " goal is to become a " + futureDream + ".",
                 "Final Result",
                 1);
-        
     }
 }
